@@ -4,7 +4,7 @@ import './App.css';
 function Header(props) {
   return (
     <header>
-      <h1>{props.name}'s Arena</h1>
+      <h1>{props.name}'s Kitchen</h1>
     </header>
   )
 }
@@ -12,7 +12,7 @@ function Header(props) {
 function Main() {
   return(
     <section>
-      <p>Welcome to my world. Let the game begin</p>
+      <p>Welcome to my Kitchen. Let the game begin</p>
     </section>
   )
 }
