@@ -1,5 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
+import image from './img.jpg'
 
 //const dishObjects = [{ id : 1, name : "Biriyani" }, { id : 1, name : "Pulao" }, { id : 1, name : "Burger" }]
 
@@ -11,11 +11,11 @@ function Header(props) {
   return (
     <header>
       <h1>{props.name}'s Kitchen</h1>
+      <img src={image} alt="Hochschule fulda" height = "390" width = "1380"></img>
     </header>
   )
 }
 
-//dishObjects.map(data => console.log(data.name));
 console.log(dishObjects);
 
 function Main(props) {
